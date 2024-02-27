@@ -10,9 +10,11 @@ main = "python_template.main:main"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-pre-commit = "^3.6.2"
-pytest = "^8.0.2"
 
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.2"
+pre-commit = "^3.6.2"
 
 [build-system]
 requires = ["poetry-core"]
