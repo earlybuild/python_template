@@ -5,8 +5,13 @@ description = ""
 authors = ["Jan Beelte <jan@kadalian.com>"]
 readme = "README.md"
 
+[tool.poetry.scripts]
+main = "python_template.main:main"
+
 [tool.poetry.dependencies]
 python = "^3.12"
+pre-commit = "^3.6.2"
+pytest = "^8.0.2"
 
 
 [build-system]

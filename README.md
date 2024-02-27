@@ -1,0 +1,3 @@
+- Run tests: `poetry run pytest`
+- Install pre-commit hooks: `poetry run pre-commit install`
+- Run pre-commit scripts from commandline: `poetry run pre-commit run --all-files`
