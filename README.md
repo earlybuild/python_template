@@ -1,4 +1,4 @@
-# Kadalian Python Project Template
+# Earlybuild Python Project Template
 
 ## Installation
 - Poetry configuration: `poetry config virtualenvs.in-project true`
